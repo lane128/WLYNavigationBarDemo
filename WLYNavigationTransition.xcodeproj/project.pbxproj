@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0309501DE5952E00F0E973 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 3D03094F1DE5952E00F0E973 /* Readme.md */; };
+		3D2BBFAB1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BBFA91DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m */; };
+		3D3C80A01DE2E736007DA226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C809F1DE2E736007DA226 /* main.m */; };
+		3D3C80A31DE2E736007DA226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80A21DE2E736007DA226 /* AppDelegate.m */; };
+		3D3C80AB1DE2E736007DA226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C80AA1DE2E736007DA226 /* Assets.xcassets */; };
+		3D3C80AE1DE2E736007DA226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C80AC1DE2E736007DA226 /* LaunchScreen.storyboard */; };
+		3D3C80B91DE2E736007DA226 /* WLYNavigationTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80B81DE2E736007DA226 /* WLYNavigationTransitionTests.m */; };
+		3D3C80C61DE2E7DC007DA226 /* WLYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80C51DE2E7DC007DA226 /* WLYNavigationController.m */; };
+		3D3C80C91DE2E81A007DA226 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80C81DE2E81A007DA226 /* MainViewController.m */; };
+		3D3C80CC1DE2EF16007DA226 /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80CB1DE2EF16007DA226 /* PushedViewController.m */; };
+		3D3C80D11DE2F6F0007DA226 /* UINavigationController+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80D01DE2F6F0007DA226 /* UINavigationController+Block.m */; };
+		3D3C80D81DE421F0007DA226 /* WLYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80D71DE421F0007DA226 /* WLYBaseViewController.m */; };
+		3D3C80DB1DE42D8B007DA226 /* WLYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80DA1DE42D8B007DA226 /* WLYNavigationBar.m */; };
+		AB5E7D222DE73B2E2A8ED369 /* libPods-WLYNavigationTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8EA69C79ED8AFA7345CA6F /* libPods-WLYNavigationTransition.a */; };
+		CF3F43E77779486DD5B80948 /* libPods-WLYNavigationTransitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2621B1615C78C45FC2236BAE /* libPods-WLYNavigationTransitionTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D3C80B51DE2E736007DA226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3C80931DE2E736007DA226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3C809A1DE2E736007DA226;
+			remoteInfo = WLYNavigationTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2621B1615C78C45FC2236BAE /* libPods-WLYNavigationTransitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLYNavigationTransitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFCD082F4E7A7EB0BC006FE /* Pods-WLYNavigationTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLYNavigationTransitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLYNavigationTransitionTests/Pods-WLYNavigationTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F6ACF35A5C24E6C8CAAEB60 /* Pods-WLYNavigationTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLYNavigationTransitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLYNavigationTransitionTests/Pods-WLYNavigationTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D03094F1DE5952E00F0E973 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		3D2BBFA91DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+WLYBackgroudColor.m"; sourceTree = "<group>"; };
+		3D2BBFAA1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+WLYBackgroudColor.h"; sourceTree = "<group>"; };
+		3D3C809B1DE2E736007DA226 /* WLYNavigationTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLYNavigationTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3C809F1DE2E736007DA226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D3C80A11DE2E736007DA226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D3C80A21DE2E736007DA226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D3C80AA1DE2E736007DA226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D3C80AD1DE2E736007DA226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D3C80AF1DE2E736007DA226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3C80B41DE2E736007DA226 /* WLYNavigationTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLYNavigationTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3C80B81DE2E736007DA226 /* WLYNavigationTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLYNavigationTransitionTests.m; sourceTree = "<group>"; };
+		3D3C80BA1DE2E736007DA226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3C80C41DE2E7DC007DA226 /* WLYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLYNavigationController.h; sourceTree = "<group>"; };
+		3D3C80C51DE2E7DC007DA226 /* WLYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLYNavigationController.m; sourceTree = "<group>"; };
+		3D3C80C71DE2E81A007DA226 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3D3C80C81DE2E81A007DA226 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3D3C80CA1DE2EF16007DA226 /* PushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		3D3C80CB1DE2EF16007DA226 /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		3D3C80CE1DE2F6F0007DA226 /* iOSBlocksProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSBlocksProtocol.h; sourceTree = "<group>"; };
+		3D3C80CF1DE2F6F0007DA226 /* UINavigationController+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Block.h"; sourceTree = "<group>"; };
+		3D3C80D01DE2F6F0007DA226 /* UINavigationController+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Block.m"; sourceTree = "<group>"; };
+		3D3C80D61DE421F0007DA226 /* WLYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLYBaseViewController.h; sourceTree = "<group>"; };
+		3D3C80D71DE421F0007DA226 /* WLYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLYBaseViewController.m; sourceTree = "<group>"; };
+		3D3C80D91DE42D8B007DA226 /* WLYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLYNavigationBar.h; sourceTree = "<group>"; };
+		3D3C80DA1DE42D8B007DA226 /* WLYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLYNavigationBar.m; sourceTree = "<group>"; };
+		4A8EA69C79ED8AFA7345CA6F /* libPods-WLYNavigationTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLYNavigationTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38C7BD9E29C1B0E1F437BF5 /* Pods-WLYNavigationTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLYNavigationTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLYNavigationTransition/Pods-WLYNavigationTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		F7AE128ED45AB351F7CDF454 /* Pods-WLYNavigationTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLYNavigationTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLYNavigationTransition/Pods-WLYNavigationTransition.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3C80981DE2E736007DA226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5E7D222DE73B2E2A8ED369 /* libPods-WLYNavigationTransition.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C80B11DE2E736007DA226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F43E77779486DD5B80948 /* libPods-WLYNavigationTransitionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EF6126C35526B457ECCB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8EA69C79ED8AFA7345CA6F /* libPods-WLYNavigationTransition.a */,
+				2621B1615C78C45FC2236BAE /* libPods-WLYNavigationTransitionTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D3C80921DE2E736007DA226 = {
+			isa = PBXGroup;
+			children = (
+				3D03094F1DE5952E00F0E973 /* Readme.md */,
+				3D3C809D1DE2E736007DA226 /* WLYNavigationTransition */,
+				3D3C80B71DE2E736007DA226 /* WLYNavigationTransitionTests */,
+				3D3C809C1DE2E736007DA226 /* Products */,
+				B9AD11DC447417BD0B1A9DF3 /* Pods */,
+				01EF6126C35526B457ECCB82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3C809C1DE2E736007DA226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C809B1DE2E736007DA226 /* WLYNavigationTransition.app */,
+				3D3C80B41DE2E736007DA226 /* WLYNavigationTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3C809D1DE2E736007DA226 /* WLYNavigationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C80CD1DE2F6F0007DA226 /* Vendor */,
+				3D3C80C31DE2E7B9007DA226 /* WLYNavigationController */,
+				3D3C80A11DE2E736007DA226 /* AppDelegate.h */,
+				3D3C80A21DE2E736007DA226 /* AppDelegate.m */,
+				3D3C80C71DE2E81A007DA226 /* MainViewController.h */,
+				3D3C80C81DE2E81A007DA226 /* MainViewController.m */,
+				3D3C80CA1DE2EF16007DA226 /* PushedViewController.h */,
+				3D3C80CB1DE2EF16007DA226 /* PushedViewController.m */,
+				3D3C80AA1DE2E736007DA226 /* Assets.xcassets */,
+				3D3C80AC1DE2E736007DA226 /* LaunchScreen.storyboard */,
+				3D3C80AF1DE2E736007DA226 /* Info.plist */,
+				3D3C809E1DE2E736007DA226 /* Supporting Files */,
+			);
+			path = WLYNavigationTransition;
+			sourceTree = "<group>";
+		};
+		3D3C809E1DE2E736007DA226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C809F1DE2E736007DA226 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D3C80B71DE2E736007DA226 /* WLYNavigationTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C80B81DE2E736007DA226 /* WLYNavigationTransitionTests.m */,
+				3D3C80BA1DE2E736007DA226 /* Info.plist */,
+			);
+			path = WLYNavigationTransitionTests;
+			sourceTree = "<group>";
+		};
+		3D3C80C31DE2E7B9007DA226 /* WLYNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BBFA91DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m */,
+				3D2BBFAA1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.h */,
+				3D3C80C41DE2E7DC007DA226 /* WLYNavigationController.h */,
+				3D3C80C51DE2E7DC007DA226 /* WLYNavigationController.m */,
+				3D3C80D61DE421F0007DA226 /* WLYBaseViewController.h */,
+				3D3C80D71DE421F0007DA226 /* WLYBaseViewController.m */,
+				3D3C80D91DE42D8B007DA226 /* WLYNavigationBar.h */,
+				3D3C80DA1DE42D8B007DA226 /* WLYNavigationBar.m */,
+			);
+			path = WLYNavigationController;
+			sourceTree = "<group>";
+		};
+		3D3C80CD1DE2F6F0007DA226 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C80CE1DE2F6F0007DA226 /* iOSBlocksProtocol.h */,
+				3D3C80CF1DE2F6F0007DA226 /* UINavigationController+Block.h */,
+				3D3C80D01DE2F6F0007DA226 /* UINavigationController+Block.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B9AD11DC447417BD0B1A9DF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38C7BD9E29C1B0E1F437BF5 /* Pods-WLYNavigationTransition.debug.xcconfig */,
+				F7AE128ED45AB351F7CDF454 /* Pods-WLYNavigationTransition.release.xcconfig */,
+				2F6ACF35A5C24E6C8CAAEB60 /* Pods-WLYNavigationTransitionTests.debug.xcconfig */,
+				2EFCD082F4E7A7EB0BC006FE /* Pods-WLYNavigationTransitionTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3C809A1DE2E736007DA226 /* WLYNavigationTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C80BD1DE2E736007DA226 /* Build configuration list for PBXNativeTarget "WLYNavigationTransition" */;
+			buildPhases = (
+				A198BC10093B80BA6D5319C1 /* 📦 Check Pods Manifest.lock */,
+				3D3C80971DE2E736007DA226 /* Sources */,
+				3D3C80981DE2E736007DA226 /* Frameworks */,
+				3D3C80991DE2E736007DA226 /* Resources */,
+				3AB377360FD7A30648D493FF /* 📦 Embed Pods Frameworks */,
+				62C44F6EA54D92166118E4B2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLYNavigationTransition;
+			productName = WLYNavigationTransition;
+			productReference = 3D3C809B1DE2E736007DA226 /* WLYNavigationTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3C80B31DE2E736007DA226 /* WLYNavigationTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C80C01DE2E736007DA226 /* Build configuration list for PBXNativeTarget "WLYNavigationTransitionTests" */;
+			buildPhases = (
+				03672251BFE02E826E17D8CB /* 📦 Check Pods Manifest.lock */,
+				3D3C80B01DE2E736007DA226 /* Sources */,
+				3D3C80B11DE2E736007DA226 /* Frameworks */,
+				3D3C80B21DE2E736007DA226 /* Resources */,
+				195694DA0D8238264FFFF6CE /* 📦 Embed Pods Frameworks */,
+				3B7DADEB7AB9792F4C75CFC8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3C80B61DE2E736007DA226 /* PBXTargetDependency */,
+			);
+			name = WLYNavigationTransitionTests;
+			productName = WLYNavigationTransitionTests;
+			productReference = 3D3C80B41DE2E736007DA226 /* WLYNavigationTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3C80931DE2E736007DA226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = me.lane128;
+				TargetAttributes = {
+					3D3C809A1DE2E736007DA226 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5EDEADSPMS;
+						ProvisioningStyle = Automatic;
+					};
+					3D3C80B31DE2E736007DA226 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3C809A1DE2E736007DA226;
+					};
+				};
+			};
+			buildConfigurationList = 3D3C80961DE2E736007DA226 /* Build configuration list for PBXProject "WLYNavigationTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3C80921DE2E736007DA226;
+			productRefGroup = 3D3C809C1DE2E736007DA226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3C809A1DE2E736007DA226 /* WLYNavigationTransition */,
+				3D3C80B31DE2E736007DA226 /* WLYNavigationTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3C80991DE2E736007DA226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3C80AE1DE2E736007DA226 /* LaunchScreen.storyboard in Resources */,
+				3D3C80AB1DE2E736007DA226 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C80B21DE2E736007DA226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03672251BFE02E826E17D8CB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		195694DA0D8238264FFFF6CE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLYNavigationTransitionTests/Pods-WLYNavigationTransitionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB377360FD7A30648D493FF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLYNavigationTransition/Pods-WLYNavigationTransition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B7DADEB7AB9792F4C75CFC8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLYNavigationTransitionTests/Pods-WLYNavigationTransitionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C44F6EA54D92166118E4B2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLYNavigationTransition/Pods-WLYNavigationTransition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A198BC10093B80BA6D5319C1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3C80971DE2E736007DA226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0309501DE5952E00F0E973 /* Readme.md in Sources */,
+				3D3C80D81DE421F0007DA226 /* WLYBaseViewController.m in Sources */,
+				3D3C80C61DE2E7DC007DA226 /* WLYNavigationController.m in Sources */,
+				3D2BBFAB1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m in Sources */,
+				3D3C80A31DE2E736007DA226 /* AppDelegate.m in Sources */,
+				3D3C80DB1DE42D8B007DA226 /* WLYNavigationBar.m in Sources */,
+				3D3C80A01DE2E736007DA226 /* main.m in Sources */,
+				3D3C80C91DE2E81A007DA226 /* MainViewController.m in Sources */,
+				3D3C80CC1DE2EF16007DA226 /* PushedViewController.m in Sources */,
+				3D3C80D11DE2F6F0007DA226 /* UINavigationController+Block.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C80B01DE2E736007DA226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3C80B91DE2E736007DA226 /* WLYNavigationTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3C80B61DE2E736007DA226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3C809A1DE2E736007DA226 /* WLYNavigationTransition */;
+			targetProxy = 3D3C80B51DE2E736007DA226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3C80AC1DE2E736007DA226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3C80AD1DE2E736007DA226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3C80BB1DE2E736007DA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D3C80BC1DE2E736007DA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3C80BE1DE2E736007DA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38C7BD9E29C1B0E1F437BF5 /* Pods-WLYNavigationTransition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EDEADSPMS;
+				INFOPLIST_FILE = WLYNavigationTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLYNavigationTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D3C80BF1DE2E736007DA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AE128ED45AB351F7CDF454 /* Pods-WLYNavigationTransition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EDEADSPMS;
+				INFOPLIST_FILE = WLYNavigationTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLYNavigationTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D3C80C11DE2E736007DA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6ACF35A5C24E6C8CAAEB60 /* Pods-WLYNavigationTransitionTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLYNavigationTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLYNavigationTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLYNavigationTransition.app/WLYNavigationTransition";
+			};
+			name = Debug;
+		};
+		3D3C80C21DE2E736007DA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFCD082F4E7A7EB0BC006FE /* Pods-WLYNavigationTransitionTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLYNavigationTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLYNavigationTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLYNavigationTransition.app/WLYNavigationTransition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3C80961DE2E736007DA226 /* Build configuration list for PBXProject "WLYNavigationTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C80BB1DE2E736007DA226 /* Debug */,
+				3D3C80BC1DE2E736007DA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C80BD1DE2E736007DA226 /* Build configuration list for PBXNativeTarget "WLYNavigationTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C80BE1DE2E736007DA226 /* Debug */,
+				3D3C80BF1DE2E736007DA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C80C01DE2E736007DA226 /* Build configuration list for PBXNativeTarget "WLYNavigationTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C80C11DE2E736007DA226 /* Debug */,
+				3D3C80C21DE2E736007DA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3C80931DE2E736007DA226 /* Project object */;
+}

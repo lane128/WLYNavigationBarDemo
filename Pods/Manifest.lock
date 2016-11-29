@@ -1,0 +1,15 @@
+PODS:
+  - HexColors (4.0.0)
+  - Masonry (1.0.1)
+
+DEPENDENCIES:
+  - HexColors (~> 4.0)
+  - Masonry (~> 1.0)
+
+SPEC CHECKSUMS:
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+
+PODFILE CHECKSUM: 47ed77c52fb1120a91abe41cd0bc7c9aad4adc1f
+
+COCOAPODS: 1.0.0.beta.6
