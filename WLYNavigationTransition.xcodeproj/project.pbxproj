@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D0309501DE5952E00F0E973 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 3D03094F1DE5952E00F0E973 /* Readme.md */; };
+		3D0B5A731DF00E7A00182676 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B5A721DF00E7A00182676 /* ThirdViewController.m */; };
 		3D2BBFAB1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BBFA91DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m */; };
 		3D3C80A01DE2E736007DA226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C809F1DE2E736007DA226 /* main.m */; };
 		3D3C80A31DE2E736007DA226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C80A21DE2E736007DA226 /* AppDelegate.m */; };
@@ -39,6 +40,8 @@
 		2EFCD082F4E7A7EB0BC006FE /* Pods-WLYNavigationTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLYNavigationTransitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLYNavigationTransitionTests/Pods-WLYNavigationTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
 		2F6ACF35A5C24E6C8CAAEB60 /* Pods-WLYNavigationTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLYNavigationTransitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLYNavigationTransitionTests/Pods-WLYNavigationTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D03094F1DE5952E00F0E973 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		3D0B5A711DF00E7A00182676 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3D0B5A721DF00E7A00182676 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		3D2BBFA91DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+WLYBackgroudColor.m"; sourceTree = "<group>"; };
 		3D2BBFAA1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+WLYBackgroudColor.h"; sourceTree = "<group>"; };
 		3D3C809B1DE2E736007DA226 /* WLYNavigationTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLYNavigationTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +133,8 @@
 				3D3C80C81DE2E81A007DA226 /* MainViewController.m */,
 				3D3C80CA1DE2EF16007DA226 /* PushedViewController.h */,
 				3D3C80CB1DE2EF16007DA226 /* PushedViewController.m */,
+				3D0B5A711DF00E7A00182676 /* ThirdViewController.h */,
+				3D0B5A721DF00E7A00182676 /* ThirdViewController.m */,
 				3D3C80AA1DE2E736007DA226 /* Assets.xcassets */,
 				3D3C80AC1DE2E736007DA226 /* LaunchScreen.storyboard */,
 				3D3C80AF1DE2E736007DA226 /* Info.plist */,
@@ -397,6 +402,7 @@
 				3D3C80C61DE2E7DC007DA226 /* WLYNavigationController.m in Sources */,
 				3D2BBFAB1DED8B21009B907A /* UINavigationBar+WLYBackgroudColor.m in Sources */,
 				3D3C80A31DE2E736007DA226 /* AppDelegate.m in Sources */,
+				3D0B5A731DF00E7A00182676 /* ThirdViewController.m in Sources */,
 				3D3C80DB1DE42D8B007DA226 /* WLYNavigationBar.m in Sources */,
 				3D3C80A01DE2E736007DA226 /* main.m in Sources */,
 				3D3C80C91DE2E81A007DA226 /* MainViewController.m in Sources */,

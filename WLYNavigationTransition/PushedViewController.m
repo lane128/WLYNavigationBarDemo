@@ -10,12 +10,14 @@
 #import <Masonry/Masonry.h>
 #import <HexColors/HexColors.h>
 #import "UINavigationBar+WLYBackgroudColor.h"
+#import "ThirdViewController.h"
 
 @interface PushedViewController () <UIScrollViewDelegate>
 
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UIImageView *headerImageView;
 @property (nonatomic, strong) UIView *contentView;
+@property (nonatomic, strong) UIButton *newPushButton;
 
 @end
 
@@ -27,7 +29,6 @@
     self.title = @"Pushed View";
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
-//    [self.navigationController.navigationBar setTintColor:[UIColor hx_colorWithHexRGBAString:@"#737373" alpha:0]];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -43,6 +44,7 @@
     [self.view addSubview:self.scrollView];
     [self.scrollView addSubview:self.headerImageView];
     [self.scrollView addSubview:self.contentView];
+    [self.contentView addSubview:self.newPushButton];
     
     [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -60,6 +62,13 @@
         make.top.equalTo(self.headerImageView.mas_bottom);
         make.width.equalTo(self.view);
         make.height.mas_equalTo(self.view.mas_height);
+    }];
+    
+    [self.newPushButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.scrollView);
+        make.top.equalTo(self.headerImageView.mas_bottom).offset(200);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(50);
     }];
 }
 
@@ -101,7 +110,23 @@
     return _contentView;
 }
 
+- (UIButton *)newPushButton {
+    if (!_newPushButton) {
+        _newPushButton = [[UIButton alloc] init];
+        [_newPushButton addTarget:self action:@selector(pushNewViewController) forControlEvents:UIControlEventTouchUpInside];
+        _newPushButton.backgroundColor = [UIColor hx_colorWithHexRGBAString:@"#E74C3C"];
+        [_newPushButton setTitle:@"Click Me" forState:UIControlStateNormal];
+    }
+    return _newPushButton;
+}
+
 #pragma mark - Others
+
+- (void)pushNewViewController {
+    ThirdViewController *thirdVC = [[ThirdViewController alloc] init];
+    thirdVC.useTransparentNavigationBar = YES;
+    [self.navigationController pushViewController:thirdVC animated:YES];
+}
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleDefault;
@@ -112,7 +137,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"Pushed ViewController dealloc");
+    
 }
 
 @end
